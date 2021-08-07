@@ -1,0 +1,46 @@
+html {
+  background-color: #95dae7;
+}
+.result {
+  height: 60px;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  width: 391px;
+  color: #00f454;
+  margin-left: 5px;
+}
+
+.result p {
+  font-size: 37px;
+  margin: 5px;
+  float: right;
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+  
+}
+
+.button {
+  display: block;
+  background-color: transparent;
+  
+}
+
+
+.button button:hover {
+  transition:  0.5s;
+  transform: scale(1.1);
+}
+
+button {
+  width: 70px;
+  height: 60px;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  font-family: monospace;
+  cursor: pointer;
+}
